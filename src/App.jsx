@@ -43,6 +43,9 @@ const App = () => {
   return (
     <div className="main">
       <div className="header">
+      <div className="taskManagerHeading">
+        <h1>Task Manager</h1>
+      </div>
         <form onSubmit={addTask}>
           <input
             ref={inputElementRef}
